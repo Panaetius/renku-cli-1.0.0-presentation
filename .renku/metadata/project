@@ -1,0 +1,32 @@
+{
+  "@renku_data_type": "renku.core.models.project.Project",
+  "@renku_oid": "project",
+  "agent_version": "0.0.0",
+  "annotations": [],
+  "automated_update": false,
+  "creator": {
+    "@renku_data_type": "renku.core.models.provenance.agent.Person",
+    "@renku_data_value": {
+      "affiliation": null,
+      "alternate_name": null,
+      "email": "ralf.grubenmann@gmail.com",
+      "id": "mailto:ralf.grubenmann@gmail.com",
+      "name": "Ralf Grubenmann"
+    }
+  },
+  "date_created": {
+    "@renku_data_type": "datetime.datetime",
+    "@renku_data_value": "2022-01-12T10:25:26+01:00"
+  },
+  "description": null,
+  "id": "/projects/ralf.grubenmann/cli-1-0-0-presentation",
+  "immutable_template_files": [],
+  "keywords": [],
+  "name": "cli-1.0.0-presentation",
+  "template_id": "python-minimal",
+  "template_metadata": "{\"__template_source__\": \"renku\", \"__template_ref__\": null, \"__template_id__\": \"python-minimal\", \"__namespace__\": \"\", \"__sanitized_project_name__\": \"\", \"__repository__\": \"\", \"__project_slug__\": \"\", \"__project_description__\": null, \"__renku_version__\": \"0.0.0\", \"name\": \"cli-1.0.0-presentation\", \"__name__\": \"cli-1.0.0-presentation\"}",
+  "template_ref": null,
+  "template_source": "renku",
+  "template_version": "0.0.0",
+  "version": 9
+}
