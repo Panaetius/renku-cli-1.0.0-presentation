@@ -1,38 +1,100 @@
-# cli-1.0.0-presentation
 
-## Introduction
+# Renku CLI 1.0 new features
 
-This is a Renku project - basically a git repository with some
-bells and whistles. You'll find we have already created some
-useful things like `data` and `notebooks` directories and
-a `Dockerfile`.
 
-## Working with the project
+The presentation can be found in Presentation.pptx .
 
-The simplest way to start your project is right from the Renku
-platform - just click on the `Environments` tab and start a new session.
-This will start an interactive environment right in your browser.
+## Commands Use in the demo
 
-To work with the project anywhere outside the Renku platform,
-click the `Settings` tab where you will find the
-git repo URLs - use `git` to clone the project on whichever machine you want.
+Execute data preprocessing
 
-### Changing interactive environment dependencies
+`renku run python prepare-data.py`
 
-Initially we install a very minimal set of packages to keep the images small.
-However, you can add python and conda packages in `requirements.txt` and
-`environment.yml` to your heart's content. If you need more fine-grained
-control over your environment, please see [the documentation](https://renku.readthedocs.io/en/latest/user/advanced_interfaces.html#dockerfile-modifications).
+`renku workflow ls`
 
-## Project configuration
+`git reset --hard HEAD^`
 
-Project options can be found in `.renku/renku.ini`. In this
-project there is currently only one option, which specifies
-the default type of environment to open, in this case `/lab` for
-JupyterLab. You may also choose `/tree` to get to the "classic" Jupyter
-interface.
+Execute data preprocessing with named Plan
 
-## Moving forward
+`renku run --name preprocessing python prepare-data.py`
 
-Once you feel at home with your project, we recommend that you replace
-this README file with your own project documentation! Happy data wrangling!
+Execute model training
+
+`renku run --name train python train.py --data data/X_train --target data/Y_train --model models/trained_model --gamma 0.1 --c 0.0001`
+
+Evaluate model
+
+`renku run --name evaluation python evaluate_model.py --data data/X_test --target data/Y_test --model models/trained_model --result results.txt --matrix confusion_matrix.png`
+
+Check results
+
+`cat results.txt`
+
+Run whole pipeline again to recreate results.txt
+
+`renku rerun results.txt`
+
+Compare results
+
+`cat results.txt`
+
+Check status of repo
+
+`renku status`
+
+Modify input data
+
+`head -n 150 data/table_219.csv > data/table_219.csv.tmp && mv data/table_219.csv{.tmp,} && git add data/table_219.csv && git commit -m "modify source data"`
+
+Check status and update all workflow outputs
+
+`renku status`
+
+`renku update --all`
+
+
+List all Plans
+
+`renku workflow ls`
+
+Visualize Graph
+
+`renku workflow visualize results.txt`
+
+`renku workflow visualize -i results.txt`
+
+Edit Plans to make them more easily useable
+
+`renku workflow show train`
+
+`renku workflow edit --description "Train a model" --rename-param  data-2=data --rename-param target-3=target --rename-param model-4=model --rename-param gamma-5=gamma --rename-param c-6=c train`
+
+Execute a workflow 
+
+`renku workflow execute --provider cwltool --set gamma=0.01 train`
+
+`renku workflow execute evaluation`
+
+Compose Plans together into combined Plan
+
+`renku workflow compose --link train.model=evaluation.model-4 --map model=train.model --map gamma=train.gamma --map c=train.c pipeline train evaluation`
+
+Execute combined Plan using Toil (achieved the same as `renku rerun`)
+
+`renku workflow execute --provider toil -s gamma=1.4 pipeline`
+
+`renku workflow execute --provider cwltool -s gamma=1.4 pipeline`
+
+Perform many experiments
+
+`renku workflow iterate --provider cwltool --map gamma=[0.1,0.5,1.0] --map c=[0.001,0.01,0.1,1] --map model=model_{iter_index} --map evaluation.result-5=outputs/results_{iter_index}.txt --map evaluation.matrix-6=outputs/confusion_matrix_{iter_index}.png pipeline`
+
+Inputs and Outputs
+
+`renku workflow inputs`
+
+`renku workflow outputs`
+
+Removing a Plan
+
+`renku workflow remove train`
