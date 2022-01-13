@@ -12,6 +12,18 @@
               {
                 "@renku_data_type": "builtins.tuple",
                 "@renku_data_value": [
+                  "data/X_train",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "fb4216d090dc44509380f4997c2fb79f3accb74b25384cf8babb237a8710ff75",
+                    "@renku_reference": true
+                  },
+                  "data/Y_train",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "5e5e51e0fe5f4428af8b5509c69a8883c41312e463bd4ebe984f795d12f52fa2",
+                    "@renku_reference": true
+                  },
                   "data/table_219.csv",
                   {
                     "@renku_data_type": "persistent.list.PersistentList",
@@ -34,6 +46,12 @@
                   {
                     "@renku_data_type": "persistent.list.PersistentList",
                     "@renku_oid": "2df24807c31046ea914adeacbef6c3ef80268a63a0cb4b5f9a9211b8a4fdf25d",
+                    "@renku_reference": true
+                  },
+                  "train.py",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "61223300d7db41c79e3066b6c4e4d09938cf31e871644b8a9bd94dc930869a73",
                     "@renku_reference": true
                   }
                 ]

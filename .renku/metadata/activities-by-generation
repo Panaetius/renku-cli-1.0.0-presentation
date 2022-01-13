@@ -35,6 +35,12 @@
                     "@renku_data_type": "persistent.list.PersistentList",
                     "@renku_oid": "19be28525cc147399d6f17a8d19f91761cf5b44cc775474c9c0d264129252b0d",
                     "@renku_reference": true
+                  },
+                  "models/trained_model",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "10a315e0fa254824aaa6469358077c359da8d1cb35eb4b65ad6c67fe92175ba3",
+                    "@renku_reference": true
                   }
                 ]
               }
