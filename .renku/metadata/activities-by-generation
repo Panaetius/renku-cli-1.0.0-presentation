@@ -1,5 +1,48 @@
 {
   "@renku_data_type": "renku.core.metadata.database.RenkuOOBTree",
-  "@renku_data_value": null,
+  "@renku_data_value": {
+    "@renku_data_type": "builtins.tuple",
+    "@renku_data_value": [
+      {
+        "@renku_data_type": "builtins.tuple",
+        "@renku_data_value": [
+          {
+            "@renku_data_type": "builtins.tuple",
+            "@renku_data_value": [
+              {
+                "@renku_data_type": "builtins.tuple",
+                "@renku_data_value": [
+                  "data/X_test",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "decc74bd29f045c6b07850b4d1bd9c2240d1e715f8d74d10ad912e45904a1812",
+                    "@renku_reference": true
+                  },
+                  "data/X_train",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "9b852d3d0b964957b4665fae90d54c8ca3479aef38d74ef29369cc267eaa821f",
+                    "@renku_reference": true
+                  },
+                  "data/Y_test",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "01ce97646f3e4c1abc5f27c542c33f4fd87d72886b474da6bd6eb7564016d676",
+                    "@renku_reference": true
+                  },
+                  "data/Y_train",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "19be28525cc147399d6f17a8d19f91761cf5b44cc775474c9c0d264129252b0d",
+                    "@renku_reference": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "@renku_oid": "activities-by-generation"
 }

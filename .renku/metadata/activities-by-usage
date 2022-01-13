@@ -1,5 +1,48 @@
 {
   "@renku_data_type": "renku.core.metadata.database.RenkuOOBTree",
-  "@renku_data_value": null,
+  "@renku_data_value": {
+    "@renku_data_type": "builtins.tuple",
+    "@renku_data_value": [
+      {
+        "@renku_data_type": "builtins.tuple",
+        "@renku_data_value": [
+          {
+            "@renku_data_type": "builtins.tuple",
+            "@renku_data_value": [
+              {
+                "@renku_data_type": "builtins.tuple",
+                "@renku_data_value": [
+                  "data/table_219.csv",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "2292b66d22734bc58ae82cf5b4f87a1ebbf66ae93be140f7a8a4b8a9ac6975e0",
+                    "@renku_reference": true
+                  },
+                  "data/table_220.csv",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "d3d47c321945454b9b20b808f0c1713fe3c61f623ce4402db11b9eca131d02bd",
+                    "@renku_reference": true
+                  },
+                  "data/table_221.csv",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "ecc7df7fb6824cceb2d37bacac2df2e474320f79f06148778636c297c8299602",
+                    "@renku_reference": true
+                  },
+                  "prepare-data.py",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "2df24807c31046ea914adeacbef6c3ef80268a63a0cb4b5f9a9211b8a4fdf25d",
+                    "@renku_reference": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "@renku_oid": "activities-by-usage"
 }
