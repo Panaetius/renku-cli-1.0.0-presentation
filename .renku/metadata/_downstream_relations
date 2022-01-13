@@ -12,6 +12,57 @@
               {
                 "@renku_data_type": "builtins.tuple",
                 "@renku_data_value": [
+                  "/activities/2a1dfda93b4b47b3bd952560466011a6:/activities/0583bdf028e2438bbaefd372cbe29677",
+                  {
+                    "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
+                    "@renku_data_value": {
+                      "downstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "831b6c4bd0e0172b4ab39a3d013e14b29128344321f87a2eeb60b2fd2c33e9bf",
+                        "@renku_reference": true
+                      },
+                      "id": "/activities/2a1dfda93b4b47b3bd952560466011a6:/activities/0583bdf028e2438bbaefd372cbe29677",
+                      "upstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "01fd777b4fdaf350b111a526315e8cd5d6d47de2e7400b2169a4817338762d0d",
+                        "@renku_reference": true
+                      }
+                    }
+                  },
+                  "/activities/2a1dfda93b4b47b3bd952560466011a6:/activities/2b178e49757c4ea992bf21c6b9871f6f",
+                  {
+                    "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
+                    "@renku_data_value": {
+                      "downstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "c86e0437b24a376ea138ceba1cc02fec54b617c569cdb96d229a24c8e7cf58c0",
+                        "@renku_reference": true
+                      },
+                      "id": "/activities/2a1dfda93b4b47b3bd952560466011a6:/activities/2b178e49757c4ea992bf21c6b9871f6f",
+                      "upstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "01fd777b4fdaf350b111a526315e8cd5d6d47de2e7400b2169a4817338762d0d",
+                        "@renku_reference": true
+                      }
+                    }
+                  },
+                  "/activities/2a1dfda93b4b47b3bd952560466011a6:/activities/fbf2f2180c0f4383bd0cab37d9da2629",
+                  {
+                    "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
+                    "@renku_data_value": {
+                      "downstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "6d44339d8c10ccac5f600d9ebc7e09326c798db12bf1e4d22a106b8de45bc8f8",
+                        "@renku_reference": true
+                      },
+                      "id": "/activities/2a1dfda93b4b47b3bd952560466011a6:/activities/fbf2f2180c0f4383bd0cab37d9da2629",
+                      "upstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "01fd777b4fdaf350b111a526315e8cd5d6d47de2e7400b2169a4817338762d0d",
+                        "@renku_reference": true
+                      }
+                    }
+                  },
                   "/activities/4df3bdf3ff9548e893de60ed1d056a46:/activities/0583bdf028e2438bbaefd372cbe29677",
                   {
                     "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
@@ -22,6 +73,23 @@
                         "@renku_reference": true
                       },
                       "id": "/activities/4df3bdf3ff9548e893de60ed1d056a46:/activities/0583bdf028e2438bbaefd372cbe29677",
+                      "upstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "4ec1b19fe0adcefabc4ede53412ad307540f1e966f517b4a0a14871cb4ba4a5f",
+                        "@renku_reference": true
+                      }
+                    }
+                  },
+                  "/activities/4df3bdf3ff9548e893de60ed1d056a46:/activities/2b178e49757c4ea992bf21c6b9871f6f",
+                  {
+                    "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
+                    "@renku_data_value": {
+                      "downstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "c86e0437b24a376ea138ceba1cc02fec54b617c569cdb96d229a24c8e7cf58c0",
+                        "@renku_reference": true
+                      },
+                      "id": "/activities/4df3bdf3ff9548e893de60ed1d056a46:/activities/2b178e49757c4ea992bf21c6b9871f6f",
                       "upstream": {
                         "@renku_data_type": "renku.core.models.provenance.activity.Activity",
                         "@renku_oid": "4ec1b19fe0adcefabc4ede53412ad307540f1e966f517b4a0a14871cb4ba4a5f",
@@ -56,6 +124,40 @@
                         "@renku_reference": true
                       },
                       "id": "/activities/53b1eb04bfff4ff2a859f94a28d03cc2:/activities/0583bdf028e2438bbaefd372cbe29677",
+                      "upstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "07f3cc14701fd186715f8dba08bcbf350b320fc60c9e048d8d88a3ffe6000b15",
+                        "@renku_reference": true
+                      }
+                    }
+                  },
+                  "/activities/53b1eb04bfff4ff2a859f94a28d03cc2:/activities/2a1dfda93b4b47b3bd952560466011a6",
+                  {
+                    "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
+                    "@renku_data_value": {
+                      "downstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "01fd777b4fdaf350b111a526315e8cd5d6d47de2e7400b2169a4817338762d0d",
+                        "@renku_reference": true
+                      },
+                      "id": "/activities/53b1eb04bfff4ff2a859f94a28d03cc2:/activities/2a1dfda93b4b47b3bd952560466011a6",
+                      "upstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "07f3cc14701fd186715f8dba08bcbf350b320fc60c9e048d8d88a3ffe6000b15",
+                        "@renku_reference": true
+                      }
+                    }
+                  },
+                  "/activities/53b1eb04bfff4ff2a859f94a28d03cc2:/activities/2b178e49757c4ea992bf21c6b9871f6f",
+                  {
+                    "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
+                    "@renku_data_value": {
+                      "downstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "c86e0437b24a376ea138ceba1cc02fec54b617c569cdb96d229a24c8e7cf58c0",
+                        "@renku_reference": true
+                      },
+                      "id": "/activities/53b1eb04bfff4ff2a859f94a28d03cc2:/activities/2b178e49757c4ea992bf21c6b9871f6f",
                       "upstream": {
                         "@renku_data_type": "renku.core.models.provenance.activity.Activity",
                         "@renku_oid": "07f3cc14701fd186715f8dba08bcbf350b320fc60c9e048d8d88a3ffe6000b15",
@@ -124,6 +226,23 @@
                         "@renku_reference": true
                       },
                       "id": "/activities/c7e1192f91824ec2b5f9636caefdbadc:/activities/0583bdf028e2438bbaefd372cbe29677",
+                      "upstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "b3a48db558cf94c88c81ba44be95c71ebd30c0c7a6b8fe5bb8434ea2f9bb3a5a",
+                        "@renku_reference": true
+                      }
+                    }
+                  },
+                  "/activities/c7e1192f91824ec2b5f9636caefdbadc:/activities/2b178e49757c4ea992bf21c6b9871f6f",
+                  {
+                    "@renku_data_type": "renku.core.metadata.gateway.database_gateway.ActivityDownstreamRelation",
+                    "@renku_data_value": {
+                      "downstream": {
+                        "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                        "@renku_oid": "c86e0437b24a376ea138ceba1cc02fec54b617c569cdb96d229a24c8e7cf58c0",
+                        "@renku_reference": true
+                      },
+                      "id": "/activities/c7e1192f91824ec2b5f9636caefdbadc:/activities/2b178e49757c4ea992bf21c6b9871f6f",
                       "upstream": {
                         "@renku_data_type": "renku.core.models.provenance.activity.Activity",
                         "@renku_oid": "b3a48db558cf94c88c81ba44be95c71ebd30c0c7a6b8fe5bb8434ea2f9bb3a5a",

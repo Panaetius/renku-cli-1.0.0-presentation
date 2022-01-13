@@ -12,6 +12,12 @@
               {
                 "@renku_data_type": "builtins.tuple",
                 "@renku_data_value": [
+                  "/activity-collection/57959944fb1b42aabc8ed4eaa6cec0b5",
+                  {
+                    "@renku_data_type": "renku.core.models.provenance.activity.ActivityCollection",
+                    "@renku_oid": "1dc77c34cc20658d75bc1ee4295eb40d6de7ac5e4bb1365469bc3ae200a75980",
+                    "@renku_reference": true
+                  },
                   "/activity-collection/f0bf744138174b99b455a01d91b8ac69",
                   {
                     "@renku_data_type": "renku.core.models.provenance.activity.ActivityCollection",

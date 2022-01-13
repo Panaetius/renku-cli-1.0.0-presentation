@@ -18,6 +18,18 @@
                     "@renku_oid": "831b6c4bd0e0172b4ab39a3d013e14b29128344321f87a2eeb60b2fd2c33e9bf",
                     "@renku_reference": true
                   },
+                  "/activities/2a1dfda93b4b47b3bd952560466011a6",
+                  {
+                    "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                    "@renku_oid": "01fd777b4fdaf350b111a526315e8cd5d6d47de2e7400b2169a4817338762d0d",
+                    "@renku_reference": true
+                  },
+                  "/activities/2b178e49757c4ea992bf21c6b9871f6f",
+                  {
+                    "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                    "@renku_oid": "c86e0437b24a376ea138ceba1cc02fec54b617c569cdb96d229a24c8e7cf58c0",
+                    "@renku_reference": true
+                  },
                   "/activities/4df3bdf3ff9548e893de60ed1d056a46",
                   {
                     "@renku_data_type": "renku.core.models.provenance.activity.Activity",
