@@ -18,6 +18,12 @@
                     "@renku_oid": "42034c4df20d59e44f923744f6c49decee007a35337534b8f3902ea9c8f80a38",
                     "@renku_reference": true
                   },
+                  "pipeline",
+                  {
+                    "@renku_data_type": "renku.core.models.workflow.composite_plan.CompositePlan",
+                    "@renku_oid": "8364e5deae3a535a80d6bd021587bf3d1c5c8bccec0ebb808443f29bb70ab3a5",
+                    "@renku_reference": true
+                  },
                   "preprocessing",
                   {
                     "@renku_data_type": "renku.core.models.workflow.plan.Plan",
