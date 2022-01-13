@@ -12,10 +12,22 @@
               {
                 "@renku_data_type": "builtins.tuple",
                 "@renku_data_value": [
+                  "data/X_test",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "cc21865fd02b436e9e4cb5a274d87b82747ff9cc50294a228dd88120229b025c",
+                    "@renku_reference": true
+                  },
                   "data/X_train",
                   {
                     "@renku_data_type": "persistent.list.PersistentList",
                     "@renku_oid": "fb4216d090dc44509380f4997c2fb79f3accb74b25384cf8babb237a8710ff75",
+                    "@renku_reference": true
+                  },
+                  "data/Y_test",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "50782fddcede498689c27cd70979f45f51ff62867aa34ab0812a941abefa8b0e",
                     "@renku_reference": true
                   },
                   "data/Y_train",
@@ -40,6 +52,18 @@
                   {
                     "@renku_data_type": "persistent.list.PersistentList",
                     "@renku_oid": "ecc7df7fb6824cceb2d37bacac2df2e474320f79f06148778636c297c8299602",
+                    "@renku_reference": true
+                  },
+                  "evaluate_model.py",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "09a89c26524d4edba0bc39424326f5718c70948befe743cf8642a1e308b5595c",
+                    "@renku_reference": true
+                  },
+                  "models/trained_model",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "b9d7748c28914e099fd26b704943538d24d2a39f24384097a8d47637dd0bc2f6",
                     "@renku_reference": true
                   },
                   "prepare-data.py",

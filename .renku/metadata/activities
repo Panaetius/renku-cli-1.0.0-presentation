@@ -23,6 +23,12 @@
                     "@renku_data_type": "renku.core.models.provenance.activity.Activity",
                     "@renku_oid": "b3a48db558cf94c88c81ba44be95c71ebd30c0c7a6b8fe5bb8434ea2f9bb3a5a",
                     "@renku_reference": true
+                  },
+                  "/activities/fbf2f2180c0f4383bd0cab37d9da2629",
+                  {
+                    "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                    "@renku_oid": "6d44339d8c10ccac5f600d9ebc7e09326c798db12bf1e4d22a106b8de45bc8f8",
+                    "@renku_reference": true
                   }
                 ]
               }

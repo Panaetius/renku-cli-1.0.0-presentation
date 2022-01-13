@@ -12,6 +12,12 @@
               {
                 "@renku_data_type": "builtins.tuple",
                 "@renku_data_value": [
+                  "confusion_matrix.png",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "a64d63c298e7400aa2a0b3593d7b9746544586bf42a14cfbb8afc2f5a599c1fb",
+                    "@renku_reference": true
+                  },
                   "data/X_test",
                   {
                     "@renku_data_type": "persistent.list.PersistentList",
@@ -40,6 +46,12 @@
                   {
                     "@renku_data_type": "persistent.list.PersistentList",
                     "@renku_oid": "10a315e0fa254824aaa6469358077c359da8d1cb35eb4b65ad6c67fe92175ba3",
+                    "@renku_reference": true
+                  },
+                  "results.txt",
+                  {
+                    "@renku_data_type": "persistent.list.PersistentList",
+                    "@renku_oid": "816f48730e5f431c9597fcf6521630a508a6035734c3437da734e18d57e8e3b8",
                     "@renku_reference": true
                   }
                 ]

@@ -12,6 +12,12 @@
               {
                 "@renku_data_type": "builtins.tuple",
                 "@renku_data_value": [
+                  "evaluation",
+                  {
+                    "@renku_data_type": "renku.core.models.workflow.plan.Plan",
+                    "@renku_oid": "42034c4df20d59e44f923744f6c49decee007a35337534b8f3902ea9c8f80a38",
+                    "@renku_reference": true
+                  },
                   "preprocessing",
                   {
                     "@renku_data_type": "renku.core.models.workflow.plan.Plan",
