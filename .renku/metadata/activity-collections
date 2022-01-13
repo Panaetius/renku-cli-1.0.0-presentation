@@ -1,5 +1,30 @@
 {
   "@renku_data_type": "renku.core.metadata.database.RenkuOOBTree",
-  "@renku_data_value": null,
+  "@renku_data_value": {
+    "@renku_data_type": "builtins.tuple",
+    "@renku_data_value": [
+      {
+        "@renku_data_type": "builtins.tuple",
+        "@renku_data_value": [
+          {
+            "@renku_data_type": "builtins.tuple",
+            "@renku_data_value": [
+              {
+                "@renku_data_type": "builtins.tuple",
+                "@renku_data_value": [
+                  "/activity-collection/f0bf744138174b99b455a01d91b8ac69",
+                  {
+                    "@renku_data_type": "renku.core.models.provenance.activity.ActivityCollection",
+                    "@renku_oid": "879880dfbcbf35323bf644cead06d83bac30cad029e9dbc1d257f8ec7c0ffb26",
+                    "@renku_reference": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "@renku_oid": "activity-collections"
 }

@@ -12,6 +12,18 @@
               {
                 "@renku_data_type": "builtins.tuple",
                 "@renku_data_value": [
+                  "/activities/0583bdf028e2438bbaefd372cbe29677",
+                  {
+                    "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                    "@renku_oid": "831b6c4bd0e0172b4ab39a3d013e14b29128344321f87a2eeb60b2fd2c33e9bf",
+                    "@renku_reference": true
+                  },
+                  "/activities/4df3bdf3ff9548e893de60ed1d056a46",
+                  {
+                    "@renku_data_type": "renku.core.models.provenance.activity.Activity",
+                    "@renku_oid": "4ec1b19fe0adcefabc4ede53412ad307540f1e966f517b4a0a14871cb4ba4a5f",
+                    "@renku_reference": true
+                  },
                   "/activities/53b1eb04bfff4ff2a859f94a28d03cc2",
                   {
                     "@renku_data_type": "renku.core.models.provenance.activity.Activity",
